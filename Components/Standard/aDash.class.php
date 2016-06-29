@@ -19,6 +19,14 @@ class aDash extends TElement{
     
     function __construct() {
         parent::__construct('div');
+        $st = new \Adianti\Widget\Base\TStyle('ln_solid');
+        $st->border_top = "1px solid #e5e5e5";
+        $st->color = "#ffffff";
+        $st->background_color = "#ffffff";
+        $st->height = "1px";
+        $st->margin = "20px 0";
+        $st->show();
+        
         $this->{'class'} = 'ln_solid';
     }
 
