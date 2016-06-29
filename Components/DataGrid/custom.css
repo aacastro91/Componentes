@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/06/2016, 01:02:33
+    Author     : Anderson
+*/
+
+table.dataTable thead .sorting_desc {
+  background-image: none;
+    /* background-image: url("../images/sort_desc.png"); */
+}
+
+table.dataTable thead .sorting_asc {
+    background-image: none;
+}
+
+table.dataTable thead .sorting {
+    background-image: none;
+}
